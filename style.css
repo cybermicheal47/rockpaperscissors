@@ -1,0 +1,58 @@
+#rock-btn::before {
+    content: "🪨"; /* Rock icon */
+    font-size: 40px;
+  }
+  
+  #paper-btn::before {
+    content: "📄"; /* Paper icon */
+    font-size: 40px;
+  }
+  
+  #scissors-btn::before {
+    content: "✂️"; /* Scissors icon */
+    font-size: 40px;
+  }
+
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #results {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #rock-btn,
+  #paper-btn,
+  #scissors-btn {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid black;
+  }
+  
+  #rock-btn::before,
+  #paper-btn::before,
+  #scissors-btn::before {
+    margin-right: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 10px;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+  
